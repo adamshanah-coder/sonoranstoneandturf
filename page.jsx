@@ -1,0 +1,14 @@
+import './globals.css';
+
+export const metadata = {
+  title: 'Sonoran Turf & Gravel | Premium Landscape Transformations',
+  description: 'Premium landscape transformations, artificial turf, decorative gravel, pavers, putting greens, and outdoor living spaces across the Greater Phoenix area.'
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
